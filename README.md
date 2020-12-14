@@ -1,4 +1,4 @@
-# learning-wpf
+# learning-async
 WPF 学习笔记
 
 ## 学习目的
