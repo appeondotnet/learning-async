@@ -17,3 +17,17 @@
 ## 第三周 解决问题
 * 提出 async void 主线程进入解决方案
 * 提出/论证 ConfigurationAwait 最佳方案
+
+## 检验学习(是否能回答下述问题)
+* Task.Yield() 作用
+* WaitHandle 是什么
+* 异步方法的标准格式
+* 异步状态机中 -1/0 分别代表什么状态
+* CancellationToken.Register() 使用场景
+* ConfigurationAwait(false) 表示什么意思
+* 为什么在 WPF 项目中 .Wait() 会死锁
+* 为什么只有遇到真正的异步代码块时线程才会被释放
+* 怎么封装一个通用的超时处理方法，且不阻断异步的传递
+* 为什么内层全部使用了 await，最外层调用未使用 await，内层也不会等待
+* **ASP.NET 项目每个请求一个线程，怎么处理静态变量 HttpContext.Current 的并发**
+* **如何通过自定义执行上下文将所有任务放到同一个线程执行**
